@@ -1,4 +1,4 @@
-# Azure AD Domain Services Lab – Part 2
+# Azure AD Domain Services Lab – Promote DC, Create OUs & Admins
 
 Advanced Domain Setup, User Management, and Remote Access
 
