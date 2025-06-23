@@ -15,7 +15,7 @@ This lab builds on the initial setup of a Windows Server Domain Controller (DC-1
 1️⃣ Install Active Directory Domain Services
 	•	Installed AD DS role on DC-1 using Server Manager.
 
-📸 ![image](https://github.com/user-attachments/assets/b2510d95-f9ee-4ca4-a9a5-faf354215365)
+📸 ![image](https://github.com/user-attachments/assets/adcd2307-fa42-4686-abc6-9a4335fa94b2)
 
 
 2️⃣ Promote to DC
