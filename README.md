@@ -81,7 +81,8 @@ This lab builds on the initial setup of a Windows Server Domain Controller (DC-1
 	•	On Client-1, added Domain Users to Remote Desktop settings
 	•	Allows non-admin logins over RDP
 
-📸 20_rdp_access_for_domain_users.png
+📸 ![image](https://github.com/user-attachments/assets/b026662f-b44d-4258-a1a2-271e096722f6)
+
 
 ⸻
 
