@@ -35,6 +35,8 @@ This lab builds on the initial setup of a Windows Server Domain Controller (DC-1
 
 📸 ![image](https://github.com/user-attachments/assets/ea53fce7-38fb-40e0-8838-ddee5fbc77d7)
 
+![image](https://github.com/user-attachments/assets/254eda5d-6353-4e32-81d8-78576ee111b5)
+
 
 4️⃣ Create Domain Admin: jane_admin
 	•	User: Jane Doe
@@ -42,12 +44,14 @@ This lab builds on the initial setup of a Windows Server Domain Controller (DC-1
 	•	Password: Cyberlab123!
 	•	Added to Domain Admins group
 
-📸 15_create_user_jane_admin.png
+📸 ![image](https://github.com/user-attachments/assets/901db730-255d-48d7-b46a-ebd778496296)
+
+📸 ![image](https://github.com/user-attachments/assets/7b76959d-5cd7-494c-a577-8958c6ccc38a)
+
 
 5️⃣ Log in as jane_admin
 	•	Used account mydomain.com\jane_admin going forward.
 
-📸 16_logged_in_as_jane_admin.png
 
 ⸻
 
@@ -58,14 +62,16 @@ This lab builds on the initial setup of a Windows Server Domain Controller (DC-1
 	•	Joined domain through system settings
 	•	Restarted when prompted
 
-📸 17_join_client_to_domain.png
+📸 ![image](https://github.com/user-attachments/assets/2cfa13f2-284f-4d6c-8284-c16f2b604c63)
+
 📸 18_client1_restarting_joining_domain.png
 
 7️⃣ Move to OU _CLIENTS
 	•	On DC-1, verified the computer appeared in ADUC
 	•	Created _CLIENTS OU and moved Client-1 into it
 
-📸 19_client1_in_ad_and_moved.png
+📸 ![image](https://github.com/user-attachments/assets/96402a76-6969-4f2d-a192-ccdddb695934)
+
 
 ⸻
 
