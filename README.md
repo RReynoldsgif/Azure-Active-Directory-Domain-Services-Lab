@@ -15,15 +15,16 @@ This lab builds on the initial setup of a Windows Server Domain Controller (DC-1
 1️⃣ Install Active Directory Domain Services
 	•	Installed AD DS role on DC-1 using Server Manager.
 
-📸 11_add_roles_ad_installed.png
+📸 ![image](https://github.com/user-attachments/assets/b2510d95-f9ee-4ca4-a9a5-faf354215365)
+
 
 2️⃣ Promote to DC
 	•	Promoted the server as a new forest: mydomain.com
 	•	Restarted and re-logged in using: mydomain.com\labuser
 
-📸 12_promote_to_dc.png
-📸 13_logged_in_to_domain.png
+📸 ![image](https://github.com/user-attachments/assets/d62f199e-9b55-40ed-8adf-ce0f07213530)
 
+📸
 ⸻
 
 👥 Phase 2: Create Domain Admin User & OUs
