@@ -94,8 +94,9 @@ This lab builds on the initial setup of a Windows Server Domain Controller (DC-1
 	•	Names: Chris, Alex, Sam, Taylor, etc.
 	•	Password: Cyberlab123!
 
-📸 21_bulk_user_script_created.png
-📸 22_bulk_user_script_run_success.png
+📸 ![image](https://github.com/user-attachments/assets/8a290591-1f28-4ea1-8dcf-53a5dec475c2)
+📸 ![image](https://github.com/user-attachments/assets/080a2ed3-8c40-4d65-822b-aacf415d3c7d)
+
 
 ⸻
 
