@@ -64,8 +64,6 @@ This lab builds on the initial setup of a Windows Server Domain Controller (DC-1
 
 📸 ![image](https://github.com/user-attachments/assets/2cfa13f2-284f-4d6c-8284-c16f2b604c63)
 
-📸 18_client1_restarting_joining_domain.png
-
 7️⃣ Move to OU _CLIENTS
 	•	On DC-1, verified the computer appeared in ADUC
 	•	Created _CLIENTS OU and moved Client-1 into it
@@ -107,4 +105,7 @@ This lab builds on the initial setup of a Windows Server Domain Controller (DC-1
 	•	Password: Cyberlab123!
 	•	Confirmed successful domain login for standard users
 
-📸 23_logged_in_as_new_user.png
+📸 ![image](https://github.com/user-attachments/assets/56394060-1f9a-4e30-9329-5fc1f632601a)
+📸 ![image](https://github.com/user-attachments/assets/22a3e589-20a2-495b-b73c-ab2843862ec9)
+
+
