@@ -33,7 +33,8 @@ This lab builds on the initial setup of a Windows Server Domain Controller (DC-1
 3️⃣ Create Organizational Units
 	•	Created _EMPLOYEES and _ADMINS OUs using ADUC.
 
-📸 14_create_ou_employees_admins.png
+📸 ![image](https://github.com/user-attachments/assets/ea53fce7-38fb-40e0-8838-ddee5fbc77d7)
+
 
 4️⃣ Create Domain Admin: jane_admin
 	•	User: Jane Doe
