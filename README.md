@@ -24,7 +24,8 @@ This lab builds on the initial setup of a Windows Server Domain Controller (DC-1
 
 📸 ![image](https://github.com/user-attachments/assets/d62f199e-9b55-40ed-8adf-ce0f07213530)
 
-📸
+📸 ![image](https://github.com/user-attachments/assets/83aa598c-0126-4ff7-956a-be9b847e4868)
+
 ⸻
 
 👥 Phase 2: Create Domain Admin User & OUs
