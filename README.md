@@ -12,13 +12,13 @@ This lab builds on the initial setup of a Windows Server Domain Controller (DC-1
 
 🔧 Phase 1: Promote to Domain Controller
 
-1️⃣ Install Active Directory Domain Services
+# 1️⃣ Install Active Directory Domain Services
 	•	Installed AD DS role on DC-1 using Server Manager.
 
 📸 ![image](https://github.com/user-attachments/assets/adcd2307-fa42-4686-abc6-9a4335fa94b2)
 
 
-2️⃣ Promote to DC
+# 2️⃣ Promote to DC
 	•	Promoted the server as a new forest: mydomain.com
 	•	Restarted and re-logged in using: mydomain.com\labuser
 
@@ -30,7 +30,7 @@ This lab builds on the initial setup of a Windows Server Domain Controller (DC-1
 
 👥 Phase 2: Create Domain Admin User & OUs
 
-3️⃣ Create Organizational Units
+# 3️⃣ Create Organizational Units
 	•	Created _EMPLOYEES and _ADMINS OUs using ADUC.
 
 📸 ![image](https://github.com/user-attachments/assets/ea53fce7-38fb-40e0-8838-ddee5fbc77d7)
@@ -38,7 +38,7 @@ This lab builds on the initial setup of a Windows Server Domain Controller (DC-1
 ![image](https://github.com/user-attachments/assets/254eda5d-6353-4e32-81d8-78576ee111b5)
 
 
-4️⃣ Create Domain Admin: jane_admin
+# 4️⃣ Create Domain Admin: jane_admin
 	•	User: Jane Doe
 	•	Username: jane_admin
 	•	Password: Cyberlab123!
@@ -49,7 +49,7 @@ This lab builds on the initial setup of a Windows Server Domain Controller (DC-1
 📸 ![image](https://github.com/user-attachments/assets/7b76959d-5cd7-494c-a577-8958c6ccc38a)
 
 
-5️⃣ Log in as jane_admin
+# 5️⃣ Log in as jane_admin
 	•	Used account mydomain.com\jane_admin going forward.
 
 
@@ -57,14 +57,14 @@ This lab builds on the initial setup of a Windows Server Domain Controller (DC-1
 
 🔗 Phase 3: Join Client to Domain
 
-6️⃣ Join Client-1 to mydomain.com
+# 6️⃣ Join Client-1 to mydomain.com
 	•	Logged in as local admin labuser
 	•	Joined domain through system settings
 	•	Restarted when prompted
 
 📸 ![image](https://github.com/user-attachments/assets/2cfa13f2-284f-4d6c-8284-c16f2b604c63)
 
-7️⃣ Move to OU _CLIENTS
+# 7️⃣ Move to OU _CLIENTS
 	•	On DC-1, verified the computer appeared in ADUC
 	•	Created _CLIENTS OU and moved Client-1 into it
 
@@ -75,7 +75,7 @@ This lab builds on the initial setup of a Windows Server Domain Controller (DC-1
 
 🛜 Phase 4: Configure RDP for Domain Users
 
-8️⃣ Enable Remote Desktop Access
+# 8️⃣ Enable Remote Desktop Access
 	•	On Client-1, added Domain Users to Remote Desktop settings
 	•	Allows non-admin logins over RDP
 
@@ -86,7 +86,7 @@ This lab builds on the initial setup of a Windows Server Domain Controller (DC-1
 
 🚀 Phase 5: Bulk Create Users with PowerShell
 
-9️⃣ Create Users in _EMPLOYEES OU
+# 9️⃣ Create Users in _EMPLOYEES OU
 	•	Logged into DC-1 as jane_admin
 	•	Ran PowerShell script in ISE to create test users:
 	•	Names: Chris, Alex, Sam, Taylor, etc.
